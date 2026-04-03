@@ -1,4 +1,4 @@
-from Semana5.ejercicio4 import contar_asistencias
+from semana5.ejercicio4 import contar_asistencias
 
 def test_asistencias():
     assert contar_asistencias([1, 1, 0]) == 2, \
