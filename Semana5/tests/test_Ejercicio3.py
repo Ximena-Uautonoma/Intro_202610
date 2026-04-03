@@ -1,4 +1,4 @@
-from semana5.ejercicio3 import validar_retiro
+from Semana5.Ejercicio3 import validar_retiro
 
 def test_valido():
     assert validar_retiro([5, 12, 50]) == "Retiro exitoso", \
